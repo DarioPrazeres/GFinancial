@@ -509,7 +509,7 @@ textarea {
     }
 
     .card {
-        padding: var(--spacing-xs);
+        padding: var(--spacing-md);
     }
 
     .transaction-item {
