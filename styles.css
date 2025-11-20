@@ -495,6 +495,33 @@ textarea {
         grid-column: 2;
         grid-row: 1 / span 2;
     }
+
+}
+
+@media (max-width: 601px) {
+
+    .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .filters {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card {
+        padding: var(--spacing-xs);
+    }
+
+    .transaction-item {
+        padding: var(--spacing-sm);
+        gap: var(--spacing-xs);
+    }
+
+    .transaction-value {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-right: var(--spacing-xs);
+    }
 }
 
 /* ===== UTILITÁRIOS ===== */
